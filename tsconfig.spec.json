@@ -12,6 +12,7 @@
     "src/polyfills.ts"
   ],
   "include": [
+    "../node_modules/ng-mdb-pro/index.ts", // <-- this line
     "src/**/*.spec.ts",
     "src/**/*.d.ts"
   ]

@@ -1,0 +1,17 @@
+<mat-toolbar color = "primary">
+    <mat-toolbar-row>
+        <button mat-icon-button>
+          <mat-icon (click)="onToggleSidenav()">menu</mat-icon>
+        </button>
+        <h1>Desafio Helpper</h1>
+        <span class="menu-spacer"></span>
+        <div>
+          <a mat-button [routerLink]="'/home'"> Home </a>
+          <a mat-button [routerLink]="'/users'"> Users </a>   
+        </div>
+      </mat-toolbar-row>
+    
+      <mat-toolbar-row>
+          <span style="font-size: 12px;">Teste prático</span>
+        </mat-toolbar-row>
+ </mat-toolbar>
